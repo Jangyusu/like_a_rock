@@ -1,0 +1,63 @@
+@import url("common.css");
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400i|Bentham|PT+Serif:400,400i&display=swap');
+
+/*
+font-family: 'PT Serif', serif;
+font-family: 'Bentham', serif;
+font-family: 'Baskervville', serif;
+*/
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: url(../images/header_bg.jpg) no-repeat center;
+}
+header h1, h2{
+    font-family: 'Bentham', serif;
+    color: #fff;
+}
+header h1{
+    font-size: 30px;
+}
+header h2{
+    font-size: 60px;
+}
+header h2 span{
+    color: #fff;
+}
+header p{
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+}
+
+main{}
+main h2{
+    font-family: 'Bentham', serif;
+    font-size: 42px;
+}
+main h3{
+    font-size: 14px;
+}
+main p{}
+main ul{
+    font-size: 16px;
+}
+main ul li{}
+main ul li a{}
+main ul li:last-of-type a{
+    color: #fff;
+}
+
+footer{}
+footer p{
+    font-size: 14px;
+    color: #fff;
+}
