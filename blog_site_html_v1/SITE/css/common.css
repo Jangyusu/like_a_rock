@@ -11,7 +11,7 @@ span,em,strong,a{
     display: inline-block;
 }
 img {
-    font-size: 0;
+    vertical-align: top;
 }
 *{
     margin:0;padding:0;
