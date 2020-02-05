@@ -1,0 +1,117 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Banner/slider
+ * ----------------------------------------------------------------------------------------
+ */
+
+.cycle-slideshow {
+	margin-bottom: @theme-margin;
+	position: relative;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.slide {
+	min-height: 600px;
+	width: 100%;
+
+	padding-top: @baseline * 6;
+
+	text-align: center;
+}
+
+#slide-1 {
+	background: @color-dark-bg url(../images/slide-1-bg.jpg) 0 0 no-repeat;
+}
+
+#slide-2 {
+	background: @color-dark-bg url(../images/slide-2-bg.jpg) 0 0 no-repeat;
+}
+
+#slide-3 {
+	background: @color-dark-bg url(../images/slide-3-bg.jpg) 0 0 no-repeat;
+}
+
+.cycle-prev,
+.cycle-next {
+	margin-top: -1.5em;
+	position: absolute;
+	top: 50%;
+
+	z-index: 1000;
+
+	a {
+		color: rgba(255, 255, 255, .5);
+		font-size: 3em;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+.cycle-prev {
+	left: 3em;
+}
+
+.cycle-next {
+	right: 3em;
+}
+
+.fancy-box {
+	color: #fff;
+
+	display: inline-block;
+	padding: 0 @baseline * 2;
+
+	opacity: .9;
+
+	-webkit-box-shadow: 8px 8px 0 0 rgba(0, 0, 0, .3);
+	box-shadow: 8px 8px 0 0 rgba(0, 0, 0, .3);
+}
+
+.fancy-red {
+	background-color: @color-link;
+}
+
+.fancy-yellow {
+	background-color: @color-button-1;
+}
+
+.fancy-gray {
+	background-color: @color-dark-bg;
+}
+
+.slide-contents {
+	background-color: rgba(0, 0, 0, .8);
+
+	color: #fff;
+
+	margin: -@baseline auto 0 auto;
+	padding: (@baseline * 3) @baseline @baseline @baseline;
+	width: 65%;
+}
+
+.page-banner {
+	text-align: center;
+
+	height: 350px;
+	padding-top: @baseline * 10;
+	margin-bottom: @theme-margin + @baseline;
+}
+
+#page-portfolio {
+	background: @color-dark-bg url(../images/banner-portfolio.png) 0 0 no-repeat;
+}
+
+#page-about {
+	background: @color-dark-bg url(../images/banner-about.jpg) 0 0 no-repeat;
+}
+
+
+
+
+

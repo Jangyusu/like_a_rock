@@ -1,0 +1,44 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Header
+ * ----------------------------------------------------------------------------------------
+ */
+
+.main-header {
+	background-color: rgba(0, 0, 0, .8);
+
+	padding: @baseline 0;
+	position: fixed;
+
+	width: 100%;
+
+	z-index: 999999;
+}
+
+.main-nav {
+	float: right;
+
+	ul {
+		list-style-type: none;
+
+		li {
+			display: inline;
+
+			margin-left: @baseline;
+
+			a {
+				color: #fff;
+				font-size: 14px;
+				font-weight: bold;
+				letter-spacing: 2px;
+				line-height: @baseline * 2;
+				text-transform: uppercase;
+
+				&:hover {
+					color: @color-link;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
