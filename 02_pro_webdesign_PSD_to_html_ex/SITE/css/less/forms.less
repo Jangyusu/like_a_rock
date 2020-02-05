@@ -1,0 +1,27 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Forms
+ * ----------------------------------------------------------------------------------------
+ */
+
+form {
+	input[type="text"],
+	input[type="email"],
+	input[type="password"] {
+		border: none;
+
+		height: @baseline * 2;
+		padding: 0 @baseline / 2;
+		min-width: 15em;
+
+		outline: none;
+	}
+
+	input[type="submit"] {
+		background-color: transparent;
+	}
+
+	input[type="email"] + input[type="submit"] {
+		margin-left: @baseline / 2;
+	}
+}

@@ -1,0 +1,84 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Responsive rules
+ * ----------------------------------------------------------------------------------------
+ */
+
+@media (max-width: 992px) {
+	.hover-contents {
+		background-color: transparent;
+
+		padding: 0;
+		position: relative;
+
+		text-align: left;
+
+		h3 {
+			color: @color-text;
+			font-size: 1em;
+
+			margin-bottom: 0;
+		}
+
+		p {
+			display: none;
+		}
+	}
+
+	p.narrow-p {
+		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-header {
+		background-color: @color-dark-bg;
+
+		position: relative;
+
+		text-align: center;
+	}
+
+	.main-nav {
+		float: none;
+
+		margin-top: @baseline;
+
+		ul li:first-child {
+			margin-left: 0;
+		}
+
+		ul li a {
+			line-height: 1;
+		}
+	}
+
+	#homepage-slider {
+		display: none;
+	}
+
+	.section-header {
+		margin-top: @baseline * 2;
+	}
+
+	#footer-subscribe {
+		input[type="submit"] {
+			display: block;
+			margin: @baseline auto 0 auto;
+		}
+	}
+
+	.page-banner {
+		padding-top: @baseline * 4;
+		margin-bottom: @baseline * 2;
+
+		.fancy-box h1 {
+			font-size: 40px;
+		}
+	}
+}
+
+
+
+
+
