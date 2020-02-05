@@ -5,18 +5,22 @@ ul,li{
     list-style-type: none;
 }
 a{
-    text-decoration-line: none;
+    text-decoration: none;
 }
 span,em,strong,a{
     display: inline-block;
 }
 img {
-    font-size: 0;
+    vertical-align: top;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 *{
     margin:0;padding:0;
     box-sizing:border-box;
-    color: #000;
     /*
         border 또는 padding 넣어주면 
         width,height값이 변경됨
