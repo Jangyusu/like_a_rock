@@ -58,7 +58,6 @@ function scrollToTop() {
     }, 15); // 15ms마다 함수 실행
 }
 
-// 
 //
 // docElem = document.documentElement; document의 Element를 가져온다.
 // Math.max(a,b); a와 b중 큰값을 출력
