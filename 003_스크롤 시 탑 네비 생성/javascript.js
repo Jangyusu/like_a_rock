@@ -53,11 +53,15 @@ function scrollToTop() {
             window.scrollBy(0, -50); // 스크롤을 Y축으로 50만큼 뺀다.
         } else {
             // 상단부터의 스크롤 양이 0이면
-            clearInterval(scrollInterval); // 함수 정지
+            clearInterval(scrollInterval); // 변수의 반복 정지
         }
     }, 15); // 15ms마다 함수 실행
 }
 
-// var scrollInterval = setInterval(할일, 시간(ms));
-// window.scrollBy(x,y);
-// clearInterval(변수명);
+// 
+// docElem = document.documentElement; document의 Element를 가져온다.
+// Math.max(a,b); a와 b중 큰값을 출력
+// docElem.offsetHeight 와 docElem.scrollHeight, 둘 중 큰 값을 사용한다.
+// var scrollInterval = setInterval(할일, 시간(ms)); 시간(ms)마다 할일을 실행
+// window.scrollBy(x,y); 스크롤의 x축을 x만큼 y축을 y만큼 움직인다.
+// clearInterval(변수명); 변수의 반복 정지
