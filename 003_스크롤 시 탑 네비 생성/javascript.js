@@ -59,6 +59,7 @@ function scrollToTop() {
 }
 
 // 
+//
 // docElem = document.documentElement; document의 Element를 가져온다.
 // Math.max(a,b); a와 b중 큰값을 출력
 // docElem.offsetHeight 와 docElem.scrollHeight, 둘 중 큰 값을 사용한다.
