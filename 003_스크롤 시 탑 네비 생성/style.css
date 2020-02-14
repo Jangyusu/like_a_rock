@@ -61,7 +61,7 @@ a {
 
 #back-to-top {
     position: fixed;
-    bottom: 3em;
+    bottom: -5em;
     right: 3em;
     background-color: rgba(255, 255, 255, .9);
     color: #313943;
@@ -74,7 +74,6 @@ a {
     box-shadow: 0 0 2em 0 rgba(0, 0, 0, .25);
     transition: all .3s ease-in-out;
     display: inline-block;
-    opacity: 0;
     text-decoration: none;
     font-size: .75em;
 }
@@ -85,5 +84,5 @@ a {
     }
 
 #back-to-top.visible {
-    opacity: 1;
+    bottom: 3em;
 }
