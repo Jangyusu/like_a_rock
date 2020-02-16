@@ -1,0 +1,74 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Main
+ * ----------------------------------------------------------------------------------------
+ */
+
+.main-content {
+	margin-bottom: @theme-margin;
+}
+
+.section-header {
+	margin-bottom: @baseline * 2;
+}
+
+.portfolio-thumb {
+	margin-bottom: @baseline;
+	position: relative;
+
+	img {
+		border: 3px solid #fff;
+		-webkit-box-shadow: 0 0 0 1px @color-border;
+		box-shadow: 0 0 0 1px @color-border;
+
+		width: 100%;
+		height: auto;
+
+		position: relative;
+		z-index: 100;
+
+		&:hover {
+			opacity: .2;
+		}
+	}
+}
+
+.hover-contents {
+	background-color: #000;
+
+	padding: @baseline * 2;
+	position: absolute;
+	top: 0;
+
+	color: #fff;
+	text-align: center;
+
+	height: 100%;
+	width: 100%;
+
+	h3 {
+		color: @color-button-1;
+
+		margin-bottom: @baseline * 2;
+	}
+
+	p {
+		font-size: .75em;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+}
+
+.project-description {
+	h2 {
+		font-weight: bold;
+	}
+}
+
+.project-nav {
+	font-style: italic;
+}
+
+.project-nav-right {
+	float: right;
+}
